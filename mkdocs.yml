@@ -1,0 +1,21 @@
+site_name: PrairieLearn
+theme: readthedocs
+docs_dir: doc
+pages:
+    - Home: index.md
+    - Installation/Usage:
+        - Linux/OS X: install/unix.md
+        - Windows: install/windows.md
+    - Configuration:
+        - Course: config/course.md
+        - Server: config/server.md
+    - Content Creation:
+        - Questions: content/questions.md
+        - Assessments: content/tests.md
+        - FAQ: content/faq.md
+    - Server/Course Administration:
+        - Syncing: admin/sync.md
+    - Development:
+        - API: dev/api.md
+        - Various Notes: dev/notes.md
+

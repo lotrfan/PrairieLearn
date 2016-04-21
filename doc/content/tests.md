@@ -215,4 +215,4 @@ There are two different ways to link to files:
 
 1. Specific files can be stored in the test directory (like `formaulas.pdf` above). These are linked with the `testFile()` command, and all such files must be explicitly specified in the `clientFiles` list for that test.
 
-2. Files can be made accessible to all tests by putting them in the `clientFiles` directory at the top level of the course (see the [courseConfig](courseConfig.md)). These are linked with the `courseFile()` command. All files in `clientFiles` are available to students at any time (including during exams).
+2. Files can be made accessible to all tests by putting them in the `clientFiles` directory at the top level of the course (see the [courseConfig](../config/course.md)). These are linked with the `courseFile()` command. All files in `clientFiles` are available to students at any time (including during exams).
