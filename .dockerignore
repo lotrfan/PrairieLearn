@@ -1,0 +1,5 @@
+backend/node_modules
+backend/server.log
+backend/config.json
+build
+doc

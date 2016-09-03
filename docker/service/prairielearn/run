@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /pl/backend
+exec setuidgid pl node server.js /config.json
