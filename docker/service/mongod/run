@@ -1,4 +1,0 @@
-#!/bin/bash
-
-chown -R mongodb /data/configdb /data/db
-exec setuidgid mongodb mongod

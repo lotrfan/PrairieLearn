@@ -1,4 +1,7 @@
 #!/bin/bash
 
-cd /pl/backend
+cd /pl
+until psql -U postgres -c "select 1" -d postgres; do
+    sleep 1
+done
 exec setuidgid pl node server.js /config.json

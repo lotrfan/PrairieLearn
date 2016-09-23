@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[[ -f /.pgvars ]] && source /.pgvars
+
+exec /docker-entrypoint.sh postgres

@@ -1,3 +1,4 @@
 {
-	"courseDir": "/course"
+	"courseDir": "/course",
+	"courseDirs": ["/course"]
 }

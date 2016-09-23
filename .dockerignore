@@ -1,5 +1,6 @@
-backend/node_modules
-backend/server.log
-backend/config.json
-build
-doc
+*
+!v2
+!docker
+v2/node_modules
+
+v2/public/MathJax/
